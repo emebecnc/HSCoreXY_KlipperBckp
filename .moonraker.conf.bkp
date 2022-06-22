@@ -15,6 +15,8 @@ gcode_store_size = 1000
 [authorization]
 force_logins = true
 cors_domains = 
+	http://192.168.191.164:2022
+	http://hscore.local:2022
 	*.local
 	*.lan
 	*://app.fluidd.xyz
