@@ -1,0 +1,15 @@
+#####################################################################
+# 	Homing and Gantry Adjustment Routines
+#####################################################################
+
+#[homing_override]
+#set_position_z: 5
+#gcode:
+#    SET_PIN PIN=R3_42v VALUE=1
+#    G4 P1500
+#    G0 Z10 F600 ; Move Z up a bit to prevent scratching
+#    G28 X0 
+#    G28 Y0
+#    G1 X162 Y142 F18000
+#    G28 Z0
+#    G1 Z10 F2400
